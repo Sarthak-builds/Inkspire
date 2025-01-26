@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkspire:To-Do-List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <div class="navContainer">
+        <div class="navBar">
+            <div class="logoMain">
+                <img class="logo" src="Images/Inkspire.png" alt="Inkspire">
+            </div>
+            <div class="navMain">
+                <div class="navmainContent"><a href="index.html">Home</a></div>
+                <div class="navmainContent"><a href="list.html">To-Do's</a></div>
+                <div class="navmainContent">Ask AI</div>
+                <div class="navmainContent">Blogs</div>
+                <div class="navmainContent">About Us</div>
+            </div>
+            <div class="navbarLogin">
+                <button class="loginBtn border">Sign Up</button>
+            </div>
+        </div>
+    </div>  
+    <div class="listHero">
+        <!-- <h1>TO DO's</h1> -->
+        <div class="listTabs">
+            <button class="todo">Task List</button>
+            <button class="notes">Notes</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <h3 >INKSPACE</h3>
+                <input type="text" class="space-input" placeholder="create space" autocomplete="off">
+                <div class="icon add"><i    class="fa-regular fa-plus add" style="color: #26a1ff;"></i>
+                </div>
+            <div class="spaces">
+                <h4 class="space-heading">Health</h4>
+                <ul class="space-list">
+                    <li class="space-li">body mass index</li>
+                    <li class="space-li">diet chart</li>
+                    <li class="space-li">gym</li>
+                </ul>
+            </div>
+            <div class="spaces">
+                <h4 class="space-heading">Health</h4>
+                <ul class="space-list">
+                    <li class="space-li">body mass index</li>
+                    <li class="space-li">diet chart</li>
+                    <li class="space-li">gym</li>
+                </ul>
+            </div>
+            <div class="spaces">
+                <h4 class="space-heading">Health</h4>
+                <ul class="space-list">
+                    <li class="space-li">body mass index</li>
+                    <li class="space-li">diet chart</li>
+                    <li class="space-li">gym</li>
+                </ul>
+            </div>
+        </div>
+       <div class="todomain">
+         <div class="todospace">
+        <div class="headingbar
+        "> <h4>Health</h4>
+        <button class="addtodobtn">Add</button>
+        </div>
+         <div class="todoapp">
+            <div class="todoheading"><input  autocomplete="off" type="text"  class="headingInput" placeholder="Ex: Diet Chart"></div>
+            <ol class="task">
+              <li class="task-item">
+                <div class="taskBox">
+                    <div class="uncheckedDiv"> <i class="fa-regular fa-circle unchecked"></i>
+                        
+                 </div>
+                 <div class="content">
+                    <input type="text" class="data" placeholder="new task">
+                 </div>
+                </div>
+                 <div class="delete">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                 </div>
+             </li>
+             </ol>
+            </div>
+
+            
+
+
+         </div>
+         
+          </div>
+           </div>
+       
+ </div>
+    <div class="main2">
+        <div class="task">task</div>
+        <div class="note">note</div>
+      
+    </div>
+  <script src="list.js"></script>
+</body>
+</html>
