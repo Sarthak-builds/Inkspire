@@ -22,7 +22,7 @@
                 <div class="navmainContent"><a href="index.html">Home</a></div>
                 <div class="navmainContent"><a href="list.html">To-Do's</a></div>
                 <div class="navmainContent">Ask AI</div>
-                <div class="navmainContent">Blogs</div>
+                <div class="navmainContent">Notes</div>
                 <div class="navmainContent">About Us</div>
             </div>
             <div class="navbarLogin">
@@ -30,68 +30,40 @@
             </div>
         </div>
     </div>  
-    <div class="listHero">
-        <!-- <h1>TO DO's</h1> -->
-        <div class="listTabs">
-            <button class="todo">Task List</button>
-            <button class="notes">Notes</button>
-        </div>
-    </div>
     <div class="main">
         <div class="sidebar">
             <h3 >INKSPACE</h3>
-                <input type="text" class="space-input" placeholder="create space" autocomplete="off">
-                <div class="icon add"><i    class="fa-regular fa-plus add" style="color: #26a1ff;"></i>
-                </div>
             <div class="spaces">
-                <h4 class="space-heading">Health</h4>
                 <ul class="space-list">
-                    <li class="space-li">body mass index</li>
-                    <li class="space-li">diet chart</li>
-                    <li class="space-li">gym</li>
-                </ul>
-            </div>
-            <div class="spaces">
-                <h4 class="space-heading">Health</h4>
-                <ul class="space-list">
-                    <li class="space-li">body mass index</li>
-                    <li class="space-li">diet chart</li>
-                    <li class="space-li">gym</li>
-                </ul>
-            </div>
-            <div class="spaces">
-                <h4 class="space-heading">Health</h4>
-                <ul class="space-list">
-                    <li class="space-li">body mass index</li>
-                    <li class="space-li">diet chart</li>
-                    <li class="space-li">gym</li>
                 </ul>
             </div>
         </div>
        <div class="todomain">
          <div class="todospace">
         <div class="headingbar
-        "> <h4>Health</h4>
+        ">
         <button class="addtodobtn">Add</button>
         </div>
-         <div class="todoapp">
-            <div class="todoheading"><input  autocomplete="off" type="text"  class="headingInput" placeholder="Ex: Diet Chart"></div>
-            <ol class="task">
-              <li class="task-item">
-                <div class="taskBox">
-                    <div class="uncheckedDiv"> <i class="fa-regular fa-circle unchecked"></i>
-                        
-                 </div>
-                 <div class="content">
-                    <input type="text" class="data" placeholder="new task">
-                 </div>
+        <div class="todoapparea">
+            <div class="todoapp">
+                <div class="todoheading"><input  autocomplete="off" maxlength="20" type="text"  class="headingInput textfield" placeholder="Ex: Diet Chart"></div>
+                <ol class="task">
+                  <li class="task-item">
+                    <div class="taskBox">
+                        <div class="uncheckedDiv"> <i class="fa-regular fa-circle unchecked"></i>
+                            
+                     </div>
+                     <div class="content">
+                        <input type="text" class="data textfield" placeholder="new task">    
+                     </div>
+                    </div>
+                     <div class="delete">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                     </div>
+                 </li>
+                 </ol>
                 </div>
-                 <div class="delete">
-                    <i class="fa-solid fa-circle-xmark"></i>
-                 </div>
-             </li>
-             </ol>
-            </div>
+        </div>
 
             
 
@@ -102,11 +74,6 @@
            </div>
        
  </div>
-    <div class="main2">
-        <div class="task">task</div>
-        <div class="note">note</div>
-      
-    </div>
   <script src="list.js"></script>
 </body>
 </html>
