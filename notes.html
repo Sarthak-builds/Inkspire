@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="home.css">
+    <title>Inkspire- Notes</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <div class="navContainer">
+        <div class="navBar">
+            <div class="logoMain">
+                <img class="logo" src="Images/Inkspire.png" alt="Inkspire">
+            </div>
+            <div class="navMain">
+                <div class="navmainContent"><a href="index.html">Home</a></div>
+                <div class="navmainContent"><a href="list.html">To-Do's</a></div>
+                <div class="navmainContent">Ask AI</div>
+                <div class="navmainContent"><a href="notes.html">Notes</a></div>
+            </div>
+            <div class="navbarLogin">
+                <button class="loginBtn border">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <h1><img src="Images/pencil.png" alt="Notes_icon">Notes</h1> -->
+        <button class="btn"><img src="Images/create.png">Create Notes</button>
+        <div class="notesContainer">
+            <p contenteditable="true" class="inputBox">
+                <img src="Images/delete.png">
+            </p>
+        </div>
+    </div>
+    <script src="notes.js"></script>  
+</body>
+</html>

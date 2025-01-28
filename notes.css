@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Rubik";
+}
+body {
+background-color: black;
+overflow-x:hidden;
+
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(345deg,black, #002954,transparent);
+    color: white;
+    /* box-shadow: 4px -4px 40px white; */
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 12px;
+}
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    gap: 20px;
+    padding: 12px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* box-shadow: 0px 0px 4px rgb(255, 255, 255); */
+}
+.container h1 img {
+    width: 60px;
+}
+.container button img {
+    width: 25px;
+    margin-right: 8px;
+}
+.container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#187bfd, #106c94);
+    color:#fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding:15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.inputBox {
+    position: relative;
+    width: 100%;
+    /* max-width: 500px; */
+    min-height: 150px;
+    background:transparent;
+    box-shadow: 0 0 2px white;
+    border: 2px solid rgb(163, 163, 163);
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+.inputBox img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}

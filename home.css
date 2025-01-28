@@ -28,6 +28,7 @@ overflow-x:hidden;
     margin-top: 18px;
     /* background-color: red; */
     display:flex;
+    /* margin-bottom: 12px; */
 }
 .logo {
     width: 200px;

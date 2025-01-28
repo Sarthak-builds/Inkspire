@@ -1,3 +1,8 @@
+//MADE THIS TO DO LIST FUNCTIONALITY USING ONLY DOM CONCEPTS
+
+
+
+
 const main = document.querySelector(".main");
 const addSpace= document.querySelector(".add");
 const sideBar= document.querySelector(".sidebar");
@@ -105,7 +110,7 @@ function newtodo() {
   const newTodoApp = todoApp.cloneNode(true);
   newTodoApp.innerHTML = `
     <div class="todoheading">
-      <input autocomplete="off" type="text" class="headingInput textfield" placeholder="Ex: Diet Chart">
+      <input autocomplete="off" type="text" class="headingInput textfield" placeholder="TO-DO">
     </div>
     <ol class="task">
       <li class="task-item">

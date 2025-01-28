@@ -5,7 +5,7 @@
     font-family:"Rubik";
 }
 body {
-background-color: black;
+    background: black;
 overflow-x:hidden;
 }
 .main {
@@ -44,6 +44,7 @@ overflow-x:hidden;
     /* padding-top: 20px; */
     padding-left: 12px;
     border-right: 1px solid rgb(68, 66, 66);
+   
 }
 
 .sidebar h3 {
@@ -59,6 +60,7 @@ overflow-x:hidden;
 .spaces {
     position: absolute;
     top: 60px;
+    
 }
 .sidebar ul {
     font-size: 20px;
@@ -98,19 +100,10 @@ color:rgb(38, 161, 255);
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .todomain {
     text-align: start;
     margin-left: 8px;
+    
 }
 .todospace {
     width: 82vw;
@@ -131,6 +124,7 @@ color:rgb(38, 161, 255);
     /* flex-direction:row;  */
     position: relative;
     /* overflow: hidden; */
+  
 }
 .headingbar {
     display: flex;
@@ -177,7 +171,9 @@ color:rgb(38, 161, 255);
     margin-top: 60px;
     padding: 12px 8px 12px 8px;
     border-radius: 4px;
+    border: 1px solid rgb(55, 55, 55);
     /* box-shadow: 2px 2px  rgba(2, 74, 129, 0.69); */
+    background: linear-gradient(345deg,black, #002954,transparent);
 }
 /* Custom Scrollbar for Webkit Browsers */
 .todoapp::-webkit-scrollbar {
