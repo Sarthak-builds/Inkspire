@@ -169,7 +169,7 @@ overflow-x:hidden;
     position: absolute;
     /* top: 1250px; */
     top: 100px;
-    left: 30px;
+    left: -30px;
 }
 .todoVideo {
     width: 800px;
