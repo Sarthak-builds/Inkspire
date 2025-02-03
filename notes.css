@@ -63,6 +63,7 @@ overflow-x:hidden;
     margin: 20px 0;
     outline: none;
     border-radius: 5px;
+    animation: fadeIn 0.3s ease-out;
 }
 .inputBox img {
     width: 25px;
@@ -70,4 +71,70 @@ overflow-x:hidden;
     bottom: 15px;
     right: 15px;
     cursor: pointer;
+}
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.date {
+    font-size: 0.8em;
+    color: #a0a0a0;
+}
+.note-actions {
+    display: flex;
+    gap: 10px;
+}
+.note-actions img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: static;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.note-actions img:hover {
+    opacity: 1;
+}
+.note-content {
+    min-height: 100px;
+    outline: none;
+    line-height: 1.5;
+}
+.format-menu {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+}
+.format-menu button {
+    padding: 4px 8px;
+    background: #187bfd;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.format-menu input[type="color"] {
+    width: 30px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
