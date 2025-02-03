@@ -162,6 +162,7 @@ overflow-x:hidden;
     justify-content:flex-start;
     align-items: flex-start;
     position: relative;
+    gap: 30px;
     
     /* background-color: red; */
 }
